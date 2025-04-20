@@ -1,13 +1,13 @@
-# Image Captioning and Description
+# Image Captioning and Translation
 
-This is a Flask-based web application that uses the **BLIP (Bootstrapping Language-Image Pretraining)** model to generate captions and detailed descriptions for uploaded images. The app provides a simple API to upload an image and get both a caption and a detailed description of the image.
+This is a Flask-based web application that uses the **BLIP (Bootstrapping Language-Image Pretraining)** model to generate captions and translation to other languages for uploaded images. The app provides a simple API to upload an image and get both a caption and a translation with voice assistance of the image.
 
 ![Image Captioning And Description](Result.png)
 
 ## Features
 
 - Upload an image to generate a caption and detailed description.
-- Display the generated caption, description, and uploaded image on the webpage.
+- Display the generated caption, translated caption, uploaded image and voice assitant on the webpage.
 - Built using **Flask**, **PyTorch**, **Hugging Face Transformers**, and **BLIP** model.
 - Easy-to-use web interface for uploading images.
 
